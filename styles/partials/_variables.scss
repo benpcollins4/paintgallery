@@ -1,0 +1,34 @@
+// Colours
+$Dark: #201E21; 
+$OceanBlue: #0178A5;
+$BarneyPurple: #A7059B;
+$VeryLightPink: #FFE9E9;
+$LightPink: #F7DAE8;
+// @use for the colors, put on every .scss file that uses a $ sign
+
+// Text Fonts: EastSeaDokdo, Roboto. Roboto Medium (nav) = font weight of 500. CSS code below:
+// font-family: 'East Sea Dokdo', cursive;
+// font-family: 'Roboto', sans-serif;
+$headingFont: 'East Sea Dokdo', cursive;
+$bodyText: 'Roboto', sans-serif;
+// Add font weight 500 to $NavText.
+$navText: 'Roboto', sans-serif; 
+
+// Heading (h1)
+// EastSeaDokdo, Regular, 122px. Right, Line height: 94.3px
+// Headings (h2)
+// EastSeaDokdo, Regular, 75px. Line height: 36px
+// Headings (h3)
+// EastSeaDokdo, Regular, 55px. Center, Line height: 36px
+// Buttons (button)
+// EastSeaDokdo, Regular, 45px. Center, Line height: 29px
+// Nav (nav)
+// Roboto, Medium, 20px. Line height: 29px, Letter spacing: 0.2px
+// body text (p)
+// Roboto, Regular, 20px. Line height: 29px, Letter spacing: 0.2px
+
+
+// Font Awesome
+// Catalogue: <i class="fa-regular fa-images fa-bounce" style="color: #0178a5;"></i>
+// Events: <i class="fa-solid fa-calendar-days fa-bounce" style="color: #0178a5;"></i>
+// Collaborations: <i class="fa-solid fa-handshake fa-bounce" style="color: #0178a5;"></i>

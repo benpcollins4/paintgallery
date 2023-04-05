@@ -1,0 +1,53 @@
+@use './variables' as *;
+
+.section1 {
+    background-color: $VeryLightPink;
+}
+
+.section1 img {
+    max-width: 400px;
+}
+
+.flex1 {
+    display: flex;
+    padding: 5rem 0;
+}
+
+.text {
+    padding-left: 1rem;
+}
+
+.padding {
+    padding: 1rem 0;
+}
+
+.button {
+    background-color: $OceanBlue;
+    display: inline-block;
+    padding: 0.4rem;
+
+    h3 {
+        color: #fff;
+    }
+}
+
+.section2 {
+    background-color: $LightPink;
+}
+
+.section2 img {
+    max-width: 475px;
+}
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 {
+    background-color: $VeryLightPink;
+}
+
+.section4 {
+    background-color: $LightPink;
+}

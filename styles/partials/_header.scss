@@ -1,0 +1,52 @@
+@use './variables' as *;
+
+h1 {
+    font-family: $headingFont;
+    font-size: 122px;
+    line-height: 94.3px;
+}
+
+h1, ul {
+    color: $Dark;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    // Add animations here
+}
+
+li {
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+}
+
+header {
+    background-image: url(../assets/group-4@2x.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.mainNav {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    ul {
+        font-family: $navText;
+        list-style: none;
+        display: flex;
+        padding-top: 1rem;
+
+        li {
+            padding-right: 3rem;
+        }
+    }
+}
+
+.paintGallery {
+    padding-top: 5rem;
+}
